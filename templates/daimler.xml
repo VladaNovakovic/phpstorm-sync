@@ -1,0 +1,22 @@
+<templateSet group="daimler">
+  <template name="importDictionary" value="import {dictionary} from '../../lib/translations';" description="Import dictionary" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="translate" value="dictionary.translation()" description="Dictionary translation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="importTitledComponent" value="import titledComponent from '../../higher-order/titledComponent';" description="Import for titledComponent higher order function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="HOCTitled" value="&#10;export default titledComponent(WrappedComponent, '');" description="TitledComponent higher order function call" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

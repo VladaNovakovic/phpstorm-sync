@@ -1,0 +1,64 @@
+<templateSet group="React">
+  <template name="componentDidMount" value="/**&#10; * React: componentDidMount&#10; */&#10;componentDidMount() {&#10;    &#10;}" description="React component did mount method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="componentConstructor" value="/**&#10; * React: constructor&#10; */&#10;constructor(props) {&#10;    super(props);&#10;    &#10;}" description="React component constructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="componentWillMount" value="/**&#10; * React: componentWillMount&#10; */&#10;componentWillMount() {&#10;    &#10;}" description="React component will mount method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="componentWillReceiveProps" value="/**&#10; * React: componentWillReceiveProps&#10; */&#10;componentWillReceiveProps(nextProps) {&#10;    &#10;}" description="React component will receive props method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="shouldComponentUpdate" value="/**&#10; * React: shouldComponentUpdate&#10; */&#10;shouldComponentUpdate(nextProps, nextState) {&#10;    &#10;}" description="React should component update method" toReformat="false" toShortenFQNames="true" />
+  <template name="componentWillUpdate" value="/**&#10; * React: componentWillUpdate&#10; */&#10;componentWillUpdate(nextProps, nextState) {&#10;    &#10;}" description="React component will update" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="componentDidUpdate" value="/**&#10; * React: componentDidUpdate&#10; */&#10;componentDidUpdate(prevProps, prevState) {&#10;    &#10;}" description="React component did update" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="componentWillUnmount" value="/**&#10; * React: componentWillUnmount&#10; */&#10;componentWillUnmount() {&#10;    &#10;}" description="React component will unmount" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="componentDidCatch" value="/**&#10; * React: componentDidCatch&#10; */&#10;componentDidCatch(error, info) {&#10;    &#10;}" description="React component did catch method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="propTypes" value="/**&#10; * React: propTypes&#10; */&#10; static propTypes = {&#10;        &#10;};" description="React prop types" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="defaultProps" value="/**&#10; * React: defaultProps&#10; */&#10;static defaultProps = {&#10;        &#10;};" description="React default props" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="routerContextTypes" value="&#10;/**&#10; * React: contextTypes&#10; */&#10;static contextTypes = {&#10;    router: React.PropTypes.object&#10;};&#10;" description="React router context types" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="state" value="/**&#10; *&#10; * React: state&#10; */&#10;state = {&#10;    &#10;};" description="React component state" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
