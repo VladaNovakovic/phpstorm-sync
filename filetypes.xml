@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="legalActionTypes" type="JavaScript" />
+      <mapping pattern="miscApiService" type="JavaScript" />
     </extensionMap>
   </component>
 </application>
