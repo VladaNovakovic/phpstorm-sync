@@ -61,4 +61,19 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="functionalComponent" value="import React from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;const FunctionalComponent = props =&gt; {&#10;    const {children, className} = props;&#10;    const wrapperClassName = `c-component-functional-example-wrapper ${className}`;&#10;    &#10;    return (&#10;        &lt;div className={wrapperClassName}&gt;&#10;            {children}&#10;        &lt;/div&gt;&#10;    );&#10;};&#10;&#10;FunctionalComponent.propTypes = {&#10;    children: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),&#10;    className: PropTypes.string,&#10;};&#10;&#10;FunctionalComponent.defaultProps = {&#10;    children: [],&#10;    className: '',&#10;};&#10;&#10;export default FunctionalComponent;" description="Functional component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="connectComponent" value="import {connect} from 'react-redux';&#10;&#10;const mapStateToProps = state =&gt; ({&#10;    prop: state.OneReducer.prop,&#10;});&#10;&#10;const mapDispatchToProps = dispatch =&gt; ({&#10;    action: payload =&gt; dispatch(actionToDispatch({payload})),&#10;});&#10;&#10;export default connect(mapStateToProps, mapDispatchToProps)(LocalSelectionPage);" description="Connect component to the store" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="classComponent" value="import React, {Component} from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;class ComponentClassExample extends Component {&#10;    /**&#10;     * React: propTypes&#10;     */&#10;    static propTypes = {&#10;        className: PropTypes.string,&#10;        children: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),&#10;    };&#10;&#10;    /**&#10;     *&#10;     * React: state&#10;     */&#10;    state = {&#10;        className: '',&#10;        children: [],&#10;    };&#10;&#10;    render() {&#10;        const {children, className} = this.props;&#10;        const wrapperClassName = `c-component-class-example-wrapper ${className}`;&#10;        &#10;        return (&#10;            &lt;div className={wrapperClassName}&gt;&#10;                {children}&#10;            &lt;/div&gt;&#10;        );&#10;    }&#10;}&#10;&#10;export default ComponentClassExample;&#10;" description="Class for components" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
