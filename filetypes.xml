@@ -4,6 +4,7 @@
       <mapping pattern="legalActionTypes" type="JavaScript" />
       <mapping pattern="brandsPage" type="JavaScript" />
       <mapping pattern="miscApiService" type="JavaScript" />
+      <mapping pattern="RelocationWizardSteps" type="JavaScript" />
     </extensionMap>
   </component>
 </application>
