@@ -1,14 +1,12 @@
 <application>
   <component name="MaterialThemeConfig">
     <option name="highlightColorEnabled" value="true" />
-    <option name="isContrastMode" value="true" />
-    <option name="isHighContrast" value="true" />
     <option name="isWizardShown" value="true" />
     <option name="overrideAccentColor" value="false" />
     <option name="pristineConfig" value="false" />
     <option name="settingsSelectedTab" value="4" />
     <option name="accentColor" value="79cb60" />
-    <option name="selectedTheme" value="GITHUB" />
+    <option name="selectedTheme" value="MONOKAI" />
     <option name="userId" value="4f3fa0b7:1710c5be066:-8000" />
     <option name="version" value="4.11.5" />
   </component>
